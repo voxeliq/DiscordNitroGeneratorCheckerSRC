@@ -2,8 +2,7 @@
 import random, string, requests
 f=open("Valid Nitro.txt", "w", encoding='utf-8')
 
-print("Code made by:KAJPER")
-print("Video on Voxeliq channel")
+print("Code made by:KAJPER and Voxeliq")
 
 
 while True:
