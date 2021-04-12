@@ -1,8 +1,8 @@
 # DiscordNitroGeneratorCheckerSRC
 import random, string, requests
-f=open("Valid Nitro.txt", "w", encoding='utf-8')
+f=open("Dobre Nitro.txt", "w", encoding='utf-8')
 
-print("Code made by:KAJPER and Voxeliq")
+print("made by voxeliq")
 
 
 while True:
@@ -11,4 +11,6 @@ while True:
     if r.status_code == 1:
         print(f"Działające nitro >>> discord.gift/{code}")
         f.write(f"discord.gift/{code}\n")
-    
+
+    else
+        print("Nie działające nitro >>> discord.gift/{code}")
