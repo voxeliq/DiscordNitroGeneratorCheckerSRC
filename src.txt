@@ -1,7 +1,7 @@
 import random, string, requests
-f=open("Dobre Nitro.txt", "w", encoding='utf-8')
+f=open("Valid Nitro.txt", "w", encoding='utf-8')
 
-print("made by voxeliq")
+print("generator stworzony przez Voxeliq")
 
 
 while True:
@@ -10,6 +10,6 @@ while True:
     if r.status_code == 1:
         print(f"Działające nitro >>> discord.gift/{code}")
         f.write(f"discord.gift/{code}\n")
-
-    else
-        print("Nie działające nitro >>> discord.gift/{code}")
+    
+    else:
+        print(f"Nie działające nitro >>> discord.gift/{code}")
