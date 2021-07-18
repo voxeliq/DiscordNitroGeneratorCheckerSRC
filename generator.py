@@ -1,5 +1,5 @@
 import random, string, requests
-f=open("Valid Nitro.txt", "w", encoding='utf-8')
+f=open("✓ Working Nitro.txt", "w", encoding='utf-8')
 
 print("generator stworzony przez Voxeliq")
 
